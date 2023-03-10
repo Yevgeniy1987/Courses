@@ -10,7 +10,7 @@ const COURSES = [
     level: 'Advanced',
     img: 'https://placeimg.com/640/480/any',
     price: 1000
-  },
+    },
   {
     id: 2,
     title: 'React - The Complete Course',
@@ -23,7 +23,7 @@ const COURSES = [
     img: 'https://placeimg.com/640/480/any',
     price: 1000,
     oldPrice: 2000
-  },
+    },
 
   {
     id: 3,
@@ -37,7 +37,7 @@ const COURSES = [
     img: 'https://placeimg.com/640/480/any',
     price: 1000,
     isTrend: true,
-    
+    icon:'./img/th.webp',
   },
 
   {
@@ -79,6 +79,7 @@ const COURSES = [
     img: 'https://placeimg.com/640/480/any',
     price: 1000,
     isTrend: true,
+    icon:'./img/th.webp',
   },
 
   {
@@ -93,6 +94,7 @@ const COURSES = [
     img: 'https://placeimg.com/640/480/any',
     price: 1000,
     isTrend: true,
+    icon:'./img/th.webp',
   },
 
   {

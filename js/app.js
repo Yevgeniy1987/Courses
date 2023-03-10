@@ -41,7 +41,6 @@ function createCourseCardHTML(course) {
   // }
 
   let discount = (course.price / course.oldPrice) * 100;
-
   return `<div class="course-card">
     <img src="${course.img}" alt="${course.title}" class="course-card-img">
     <div class="course-card-content">
@@ -59,7 +58,8 @@ function createCourseCardHTML(course) {
   <span class="course-card-detail-old-price">${
     course.oldPrice ? course.oldPrice : ""
   }</span>
-              <span class="course-card-detail-trend">${course.isTrend}</span>
+              <span class="course-card-detail-trend">${course.isTrend?"TOP":''}</span>
+              <span class="course-card-detail-trend">${course.icon}</span>
               </div>
     </div>`;
 }
